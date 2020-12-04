@@ -1,0 +1,30 @@
+{
+  "name": "node-blocks",
+  "version": "1.0.0",
+  "description": "Working with Gutenberg blocks from WordPress in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avillegasn/node-blocks.git"
+  },
+  "keywords": [
+    "node",
+    "wordpress",
+    "gutenberg",
+    "blocks"
+  ],
+  "author": "avillegasn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avillegasn/node-blocks/issues"
+  },
+  "homepage": "https://github.com/avillegasn/node-blocks#readme",
+  "dependencies": {
+    "@wordpress/block-library": "^2.26.6",
+    "@wordpress/blocks": "^6.24.2",
+    "browser-env": "^3.3.0"
+  }
+}
